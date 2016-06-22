@@ -30,6 +30,10 @@ rownames(wed.net) <- colnames(wed.net) <- wed.com
 for (i in 1:nrow(wed.ea)){
     print(paste(i,'of',nrow(wed.ea),'records'))
     wed.net[rownames(wed.net) == wed.ea[i,'Taxonomy resource'],colnames(wed.net) == wed.ea[i,'Taxonomy consumer']] <- 1
+    ## ## consumer body length as edges
+    ## wed.net[rownames(wed.net) == wed.ea[i,'Taxonomy resource'],colnames(wed.net) == wed.ea[i,'Taxonomy consumer']] <- wed.ea[i,'Mean length (g) resource']
+    ## ## consumer body mass as edges
+    ## wed.net[rownames(wed.net) == wed.ea[i,'Taxonomy resource'],colnames(wed.net) == wed.ea[i,'Taxonomy consumer']] <- wed.ea[i,'Mean mass (g) resource']
 }
 
 ## format as a network object
