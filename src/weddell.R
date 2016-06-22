@@ -1,5 +1,7 @@
 ### Analysis of the Weddell Food Web
 
+##
+
 source('helpers.R')
 library(enaR)
 
@@ -16,3 +18,5 @@ wed.web <- pack(weddell)
 ## conduct analyses
 
 enaStructure(wed.web)
+
+
