@@ -1,0 +1,15 @@
+From: Aaron Clauset [mailto:aaron.clauset@colorado.edu] 
+Sent: Wednesday, June 22, 2016 15:53
+To: Ellison, Aaron <aellison@fas.harvard.edu>
+Cc: Mark Newman <mejn@umich.edu>
+Subject: Re: your recent paper in Nature Communcations/data
+
+Hi Aaron,
+
+Thanks for your interest in our paper, and we're glad to hear you think the method might be useful in ecological research.
+
+I've attached our copy of the Weddell Sea network data (two files, one with arcs and one with node attributes), along with two relevant papers. The Jacob et al. paper is the originating paper for the data set (if you have questions about the data, please contact Ute Jacob at <u.jacob3@gmail.com>); Ute compiled the data, and it'd probably be nice to acknowledge her if you use the data in any publication), and so describes a lot of the scientific background of it. The Yan et al. paper was the first (I believe) networks papers to use the Weddell Sea data.
+
+Sincerely,
+Aaron
+
